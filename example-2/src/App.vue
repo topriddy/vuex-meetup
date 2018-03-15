@@ -36,12 +36,32 @@
 </script>
 
 <style>
+    html, body {
+      background-color: #000;
+    }
     #app {
-        font-family: 'Avenir', Helvetica, Arial, sans-serif;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        text-align: center;
-        color: #2c3e50;
-        margin-top: 60px;
+      text-align: center;
+      margin: 0 auto;
+      color: #fff;
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 50px;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    li,
+    p {
+      font-size: 32px;
+    }
+
+    button {
+      margin: 0 10px;
+      padding: 10px 20px;
+      font-size: 32px;
     }
 </style>

@@ -14,7 +14,7 @@
         </div>
         <div v-else>
             <p>
-                No items selected.
+                No items selected
             </p>
         </div>
     </div>
