@@ -3,9 +3,9 @@ Examples used in the vuex-meetup
 
 - Example 1 & Example 2 - shows the Counter and Product application using local data
 
-- Example 3 & Example 4 - shows the Counter and Product application using Event Bus
+- Example 3  - shows the Product application using Event Bus
 
-- Example 5 - shows the Product example using Vuex states.
+- Example 4 & Example 5 - shows the Counter and Product example using Vuex states.
 
 
 ## Running the application

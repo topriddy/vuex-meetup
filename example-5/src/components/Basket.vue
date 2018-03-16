@@ -5,7 +5,7 @@
         </h2>
         <div id="summary-list" v-if="items.length > 0">
             <ul>
-                <li v-for="item in items">{{ item }}</li>
+                <li v-for="item in items" :key="item">{{ item }}</li>
             </ul>
             <p>
                 Number of Products: <span>{{items.length}}</span>

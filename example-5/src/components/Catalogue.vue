@@ -7,7 +7,7 @@
         <ul>
             <li v-for="product in products">
                 {{ product }}
-                <input type="checkbox" :id="product" :value="product" v-model="selectedProducts">
+                <input type="checkbox" :id="product" :value="product" :key="product" v-model="selectedProducts">
             </li>
         </ul>
     </div>
